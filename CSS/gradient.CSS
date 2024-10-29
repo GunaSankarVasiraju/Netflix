@@ -1,0 +1,28 @@
+div
+{
+ min-height:100vh;
+ color:orangered;
+ display:flex;
+ justify-content:center;
+ align-items:center;
+ text-align:center;   
+}
+.banner
+{
+    background: url("../Images/clay.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+.header
+{
+    background: linear-gradient(to top,rgba(0,0,0,0.3),rgba(0,0,0,0.6)),url("../Images/clay.jpg");
+}
+*
+{
+margin: 0;
+padding: 0;
+box-sizing:border-box
+}

@@ -1,0 +1,78 @@
+/*Specificity*id having more
+ specificity than class ,elemt 
+
+.one_class
+{
+    color: red;
+}
+#one_id
+{
+    color: chartreuse;
+}
+h1
+{
+color: blue;
+}
+/*css last rule which u give
+property to same elements
+the last one get more priority
+h1
+{
+color: yellow;
+}
+h1
+{
+color: orange;    
+}*/
+/*RGB*/
+.one_class
+{
+    color: rgb(0,255,0);
+    background-color: red;
+}
+#one_id
+{
+    color: rgb(34,55,47);
+    background-color: brown;
+
+}
+body
+{
+background-color: green;
+}
+h1
+{
+color: rgb(190,40,70);
+background-color: white;
+}
+/*opacity in RGB
+opacity always in bg property
+website"coolors.co"
+#one
+{
+    color: rgb(0,0,255);
+    background:#000000fa
+}
+    */
+/*px
+.two
+{
+    font-size: 50px;
+    width: 400px;
+    background-color: blanchedalmond;
+}
+    */
+    /*vh-height..percentage of the screen
+    vw-width..percent of the screen*/
+    /*cal() function in css below*/
+    .navbar
+    {
+        color: wheat;
+        font-size:3rem;
+        background-color: blue;
+        height: 100px;
+    }
+    .banner{
+        background-color: orangered;
+        min-height:cal(100vh-100px);
+    }

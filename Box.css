@@ -1,0 +1,14 @@
+h1
+{
+background-color: orange;
+padding-top: 30px;
+padding-right: 30px;
+padding-bottom: 30px;
+padding-left: 30px;
+}
+p
+{
+    color: azure;
+    background-color:blue;
+    padding: 50px 120px;
+}

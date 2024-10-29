@@ -1,0 +1,62 @@
+ body{
+   background-color: yellow;
+ }
+ .banner{
+   background-color: lightcoral;
+ }
+ h1
+ {
+   color: white;
+   text-decoration: underline;
+   text-transform: capitalize;
+   padding: 10px ;
+ }
+ @media screen and (min-width:576px)
+  {
+   body
+   {
+      background: blue;
+   }
+   .banner
+   {
+      background:chocolate;
+   }
+   h1{
+      font-size: 60px;
+      text-decoration: none;
+      text-align: center;
+
+   }
+  }
+  @media screen and (min-width:768px)
+  {
+   body
+   {
+background: green;
+   }
+   .banner
+   {
+background: pink;
+   }
+   h1{
+      font-size: 60px;
+      text-decoration: none;
+      text-align: center;
+   }
+   @media screen and (max-width:900px)
+   {
+    body
+    {
+ background: red;
+    }
+    .banner
+    {
+ background: pink;
+    }
+    h1{
+       font-size: 60px;
+       text-decoration: none;
+       text-align: center;
+    }
+  }
+}

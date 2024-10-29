@@ -1,0 +1,86 @@
+/*ID selector*/
+/*#Heading{
+    color: brown;
+}
+#second
+{
+    color: orange;
+    background-color: aquamarine;
+    font-style: italic;
+}
+#Third
+{
+    color:green;
+    background-color: yellow;
+    font-style: italic;   
+}
+/*Element Selector*/
+/*h2 
+{
+font-style: italic;
+}
+/*clas selector*/
+/*.green
+{
+    font-style: oblique;
+    color: darkred; 
+    background-color: darkseagreen;
+}
+div
+{
+    color: chartreuse;
+}
+span
+{
+    text-transform: uppercase;
+    color: aqua;
+    background-color: black;
+}
+.yes
+{
+font-style: italic;
+}
+
+/*grouping selector is used for body and paragraph*/
+/*this is thhe command in CSS*/
+/*This is the declaration
+{
+color: blue;
+font-style: italic;
+border: 2px;
+}*/
+/*blue ..> value*/
+/* color ..>property*/
+/*slectors
+1.Element selector
+2.Group selector
+3.class selector
+4.id selector  
+*/
+body
+{
+color: blue;
+}
+div
+{
+    color: brown;
+    background-color: chartreuse;
+    border: 2px solid red;
+}
+h1
+{
+color: darkmagenta;
+}
+h1
+{
+color: gold;
+}
+/*universal selector
+*{
+padding: 0;
+margin: 0;
+color: blue;
+}
+these properties belongs to entire 
+page
+*/

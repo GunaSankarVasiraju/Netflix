@@ -1,0 +1,36 @@
+
+
+body
+{
+    width: 100%;
+    Height: 100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+button
+{
+ padding: 10px 25px;
+ color:orangered;
+ background:white;
+font-size: 1.7rem;
+border:none;
+outline: none;
+border-radius:7px ;
+cursor: pointer;
+tansition:all 0.7s ease-in-out;
+border: 2px solid black;
+}
+*
+{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+button:hover{
+    color:white;
+    background: orangered;
+    border: 2px solid black;
+
+}

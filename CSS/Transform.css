@@ -1,0 +1,67 @@
+/*Transform :translate
+div
+{
+    width:150px;
+    height:150px;
+    display:inline-block;   
+}
+.one{
+    background: orangered;
+    transform:translatex(-10px);
+}
+.Two{
+    background: blue;
+    transform: translateY(30px);
+
+}   
+.Three{
+    background: green;
+    transform: translate(20px,40px);
+}
+*/
+/*Transform : scale*/
+
+/*Transform :scale
+div
+{
+    width:150px;
+    height:150px;
+    display:inline-block;   
+}
+.one
+{
+    background:orangered;
+    transform:scaleX(0.5);
+}
+.Two
+{
+    background: blue;
+    transform: scaleY(0.7);
+}
+.Three
+{
+    background:green;
+    transform:scale(0.7);
+}*/
+/*Transform :Rotate
+div
+{
+    width:150px;
+    height:150px;
+    display:inline-block;   
+}
+.one
+{
+    background: orangered;
+    transform: rotateY(45deg);
+}
+.Two
+{
+    background: blue;
+    transform: rotateX(50deg);
+}
+.Three
+{
+    background: green;
+    transform: rotate(45deg,50deg);
+}*/
